@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: How to Install Elastic SIEM along with Auditbeat
-tags: SIEM Blue-Team
+tags: SIEM Blue-Team Tutorials
 comments: true
 date: 2024-10-14
 ---
