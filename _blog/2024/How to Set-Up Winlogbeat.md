@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: How to Set-Up Winglogbeat
+title: How to Set-Up Winlogbeat
 tags: SIEM Blue-Team Tutorials
 comments: true
 date: 2024-11-10
