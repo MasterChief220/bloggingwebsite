@@ -34,7 +34,7 @@ Brief Overview of the command:
 - **`-l`**: Logs all captured events to the Windows Event Log.
 - **`-n`**: Captures network connection data, logging information about network activity.
 
-> [!Important]
+> **Important**
 > In some cases terminal might not run the command in which case run it using `.\Sysmon -i sysmonconfig.xml -accepteula -h sha256 -l -n`
 
 We will now open the Services section in Windows. There we need to ensure Sysmon is running. If not, then we will click on it and start it from there.  
