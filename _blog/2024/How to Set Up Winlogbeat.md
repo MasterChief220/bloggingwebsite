@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: How to Set Up Winlogbeat
+title: How to Set up Winlogbeat
 tags: SIEM Blue-Team Tutorials
 comments: true
-date: 2024-11-10
---- 
+date: 2024-10-14
+---
 In the previous tutorial, I explained how to setup Elasticsearch and send logs from Linux Machines. In this tutorial I will tell you how to send logs from Windows Machines. 
 
 # Sysmon
