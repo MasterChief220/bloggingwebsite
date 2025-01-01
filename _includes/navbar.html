@@ -2,7 +2,7 @@
     {% for dir in site.data.dirs %}
     <a href = "{{ '/' | relative_url }}{{ dir }}">{{ dir | capitalize }}</a>
     {% if dir != site.data.dirs.last %}
-    &nbsp;<span style="color: #b5e853;">|</span>&nbsp;
+    &nbsp;<span style="color: #b5e853; font-size: 20px;">|</span>&nbsp;
     {% endif %}
     {% endfor %}
 </small>
