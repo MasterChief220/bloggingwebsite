@@ -30,7 +30,7 @@ A website is accessible at **http://target.ine.local**. Perform reconnaissance a
 Now as we learned earlier that is the robots.txt file. Since that file exists on websites to tell search engines what to and what not to index. So I try adding robots.txt to the website path and enter it in the vm. And that gets us our first flag! 
 
 ```
-ser-agent: *
+User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
