@@ -4,7 +4,7 @@ category: eJPT
 chall_description: This lab focuses on information gathering and reconnaissance techniques to analyze a target website. Participants will explore various aspects of the website to uncover potential vulnerabilities, sensitive files, and misconfigurations. By leveraging investigative skills, they will learn how to identify critical information that could assist in further penetration testing or exploitation.
 points: 50
 solves: 50
-tags: Pentesting, Recon, Information Gathering, eLearn Security
+tags: Pentesting, Recon, Information-Gathering, eLearn-Security
 date: 2025-06-10
 comments: true
 ---
@@ -74,7 +74,7 @@ HOP RTT     ADDRESS
 And that has yielded us with our second flag. 
 
 # Third Flag
-**Flag 3: Directory browsing might reveal where files are stored. **
+**Flag 3: Directory browsing might reveal where files are stored.**
 
 Now we need to look within it's directories for where files are stored. 
 We could just use bruteforcing with gobuster or disbuster but the tools we were told to use did not include that. Hence I will try to use HTTrack to download the site and mirror it. 
@@ -85,7 +85,7 @@ This will mirror the sites files and directory structure to the mirror folder. N
 
 I decide to fall back to brute-forcing since maybe httrack missed something since it's more passive. So I run gobuster which yields the following:
 
-```
+```bash
 gobuster dir -u http://target.ine.local -w /usr/share/wordlists/dirb/common.txt 
 ===============================================================
 Gobuster v3.6
