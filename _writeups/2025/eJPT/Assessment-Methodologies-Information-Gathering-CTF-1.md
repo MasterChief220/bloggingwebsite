@@ -186,7 +186,7 @@ We found all these files and any one of them might have our flag. However the qu
 
 # Flag 5
 
-**Flag 5: Certain files may reveal something interesting when mirrored. ** 
+**Flag 5: Certain files may reveal something interesting when mirrored.** 
 
 Now the main thing here to note is the mirrored keyword. I remember httrack having a mirror parameter in it so I will go back to that. In the default directory for target.ine.local in the mirror directory I see a php file named **xmlrpc0db0.php**. What's a php file doing here? I open the file and that has the fifth flag: 
 ```php
