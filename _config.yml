@@ -46,5 +46,5 @@ collections:
       output: true
    solutions:
       output: true
-   blog:
-      output: true
+   #blog:
+      #output: false
